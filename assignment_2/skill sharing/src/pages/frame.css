@@ -1,0 +1,275 @@
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+  background-color: var(--color-darkgray);
+  width: 100%;
+  height: 100%;
+}
+.aout-us {
+  position: absolute;
+  top: 13px;
+  left: 21px;
+  display: inline-block;
+  width: 217px;
+  height: 47px;
+  cursor: pointer;
+}
+.rectangle-parent {
+  position: absolute;
+  top: 73px;
+  left: 581px;
+  width: 259px;
+  height: 75px;
+  white-space: nowrap;
+}
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: color-burn;
+}
+.ahmedabad-gujarat-india,
+.others-in-our,
+.platform-for-individuals,
+.their-skills-and,
+.we-are-dedicated,
+.welcome-to-skill {
+  margin: 0;
+}
+.welcome-to-skill-container {
+  position: absolute;
+  top: 22px;
+  left: 17px;
+  display: inline-block;
+  width: 812px;
+  height: 383px;
+}
+.vector-parent {
+  position: absolute;
+  top: 163px;
+  left: 558px;
+  width: 829px;
+  height: 484px;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+}
+.images-1-icon {
+  position: absolute;
+  top: 596px;
+  left: 558px;
+  width: 794px;
+  height: 399px;
+  object-fit: cover;
+}
+.desktop-2,
+.div {
+  position: relative;
+  flex-shrink: 0;
+}
+.desktop-2 {
+  align-self: stretch;
+  height: 1024px;
+  overflow: hidden;
+  background-image: url(/public/desktop--2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: none;
+  z-index: 0;
+}
+.div {
+  width: 75px;
+  display: inline-block;
+}
+.available-is-impressive,
+.instructors-are-knowledgeable,
+.opportunity-to-learn,
+.patient-i-am,
+.service,
+.sharing-knowledge-the,
+.sharing-thank-you,
+.skill-sharing-is,
+.that-connects-people {
+  margin: 0;
+}
+.skill-sharing-is-container {
+  position: relative;
+}
+.desktop-8-inner,
+.parent,
+.skill-sharing-is-an-incredible-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.skill-sharing-is-an-incredible-wrapper {
+  flex-direction: column;
+  padding: var(--padding-lgi) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-13xl);
+}
+.desktop-8-inner,
+.parent {
+  flex-direction: row;
+}
+.parent {
+  row-gap: 20px;
+}
+.desktop-8-inner {
+  padding: 0 var(--padding-18xl);
+  box-sizing: border-box;
+}
+.div1 {
+  width: 75px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.ahmedabad,
+.engaging-thank-you,
+.learning-and-sharing,
+.of-courses-offered,
+.providing-such-a,
+.skill-sharing-is1,
+.the-instructors-are {
+  margin: 0;
+}
+.skill-sharing-is-container1 {
+  align-self: stretch;
+  height: 396px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.group,
+.skill-sharing-is-a-fantastic-p-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.skill-sharing-is-a-fantastic-p-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+  min-width: 415px;
+  font-size: var(--font-size-13xl);
+}
+.group {
+  width: 714px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.desktop-10-child,
+.desktop-8 {
+  max-width: 100%;
+  overflow: hidden;
+}
+.desktop-8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) var(--padding-105xl) 116px;
+  box-sizing: border-box;
+  gap: 46px 0;
+  background-image: url(/public/desktop--2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+}
+.desktop-10-child {
+  height: 1024px;
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+}
+.desktop-10 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.desktop-frame {
+  width: 100%;
+  position: relative;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini) 0 0;
+  box-sizing: border-box;
+  gap: 5px 0;
+  min-height: 11316px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: #f1f1f1;
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .welcome-to-skill-container {
+    font-size: var(--font-size-19xl);
+  }
+  .div {
+    font-size: var(--font-size-32xl);
+  }
+  .skill-sharing-is-container {
+    font-size: var(--font-size-7xl);
+  }
+  .parent {
+    flex-wrap: wrap;
+  }
+  .div1 {
+    font-size: var(--font-size-32xl);
+  }
+  .skill-sharing-is-container1 {
+    font-size: var(--font-size-7xl);
+  }
+  .desktop-8 {
+    padding: var(--padding-33xl) 62px 75px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .skill-sharing-is-a-fantastic-p-wrapper {
+    min-width: 100%;
+  }
+  .desktop-8 {
+    gap: 46px 0;
+    padding: var(--padding-15xl) var(--padding-12xl) 49px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcome-to-skill-container {
+    font-size: var(--font-size-10xl);
+  }
+  .div {
+    font-size: var(--font-size-19xl);
+  }
+  .skill-sharing-is-container {
+    font-size: var(--font-size-lgi);
+  }
+  .div1 {
+    font-size: var(--font-size-19xl);
+  }
+  .skill-sharing-is-container1 {
+    font-size: var(--font-size-lgi);
+  }
+}

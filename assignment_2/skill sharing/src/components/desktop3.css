@@ -1,0 +1,207 @@
+.get-in-touch,
+.reach-out-to {
+  display: inline-block;
+  flex-shrink: 0;
+}
+.get-in-touch {
+  width: 432px;
+  height: 85px;
+  position: relative;
+  max-width: 100%;
+}
+.reach-out-to {
+  width: 853px;
+  height: 140px;
+  font-size: var(--font-size-13xl);
+}
+.name,
+.reach-out-to {
+  position: relative;
+}
+.adobe-stockx-frame-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-white);
+}
+.adobe-stockx-frame {
+  width: 652px;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mid);
+  box-sizing: border-box;
+  gap: 17px 0;
+  max-width: 100%;
+}
+.email,
+.message-frame {
+  position: relative;
+}
+.message-frame {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--color-white);
+}
+.adobe-stockx-frame1 {
+  width: 652px;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mid);
+  box-sizing: border-box;
+  gap: 17px 0;
+  max-width: 100%;
+}
+.message {
+  position: relative;
+}
+.skill-sharing-logo-frame {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-white);
+}
+.login-frame {
+  width: 652px;
+  height: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mid);
+  box-sizing: border-box;
+  gap: 17px 0;
+  max-width: 100%;
+}
+.privacy-policy1 {
+  text-decoration: underline;
+}
+.privacy-policy {
+  color: inherit;
+}
+.terms-of-service1 {
+  text-decoration: underline;
+}
+.terms-of-service {
+  color: inherit;
+}
+.this-site-is-container {
+  height: 102px;
+  width: 502px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.main-header-frame-child {
+  height: 66px;
+  width: 159px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-black);
+  display: none;
+}
+.send {
+  width: 59px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.main-header-frame {
+  border-radius: var(--br-xl);
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-lg) var(--padding-33xl) var(--padding-lgi)
+    var(--padding-28xl);
+}
+.send-button-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  color: var(--color-white);
+}
+.this-site-is-protected-by-re-c-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 19px;
+  max-width: 100%;
+}
+.desktop-9,
+.frame-wrapper1,
+.reach-out-to-us-using-the-cont-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper1 {
+  flex-direction: row;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.desktop-9,
+.reach-out-to-us-using-the-cont-parent {
+  flex-direction: column;
+  font-size: var(--font-size-5xl);
+}
+.desktop-9 {
+  align-self: stretch;
+  overflow: hidden;
+  padding: var(--padding-4xl) var(--padding-27xl) var(--padding-178xl);
+  box-sizing: border-box;
+  gap: 17px 0;
+  background-image: url(/public/desktop--9@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .get-in-touch {
+    font-size: var(--font-size-32xl);
+  }
+  .reach-out-to {
+    font-size: var(--font-size-7xl);
+  }
+  .desktop-9 {
+    padding: var(--padding-xl) var(--padding-4xl) var(--padding-109xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .this-site-is-protected-by-re-c-parent {
+    flex-wrap: wrap;
+  }
+  .desktop-9 {
+    padding-bottom: var(--padding-64xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .get-in-touch {
+    font-size: var(--font-size-19xl);
+  }
+  .email,
+  .message,
+  .name,
+  .reach-out-to,
+  .send,
+  .this-site-is-container {
+    font-size: var(--font-size-lgi);
+  }
+}

@@ -1,0 +1,253 @@
+.course-1662724358-1-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.course-1662724358-1-wrapper {
+  height: 351px;
+  width: 563px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 563px;
+  max-width: 100%;
+}
+.frame-child2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-black);
+  mix-blend-mode: color-dodge;
+}
+.digital-marketing,
+.training {
+  margin: 0;
+}
+.digital-marketing-training-container {
+  width: 397px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.get-hands-on-training,
+.strategies-and-boost {
+  margin: 0;
+}
+.get-hands-on-training-container {
+  width: 459px;
+  height: 107px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.desktop-6-inner,
+.frame-group,
+.rectangle-parent1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangle-parent1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-base) var(--padding-13xl)
+    var(--padding-11xl);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 505px;
+  min-height: 334px;
+}
+.desktop-6-inner,
+.frame-group {
+  flex-direction: row;
+}
+.frame-group {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.desktop-6-inner {
+  width: 1238px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-23xl);
+  box-sizing: border-box;
+}
+.career-event-meetup-tech-group-icon {
+  width: 563px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.frame-child3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  mix-blend-mode: color-burn;
+}
+.community-events,
+.meetup {
+  margin: 0;
+}
+.community-events-meetup-container {
+  position: relative;
+  z-index: 1;
+}
+.community-events-meetup-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.find-and-build,
+.meetup-creates-possibilities-t {
+  margin: 0;
+}
+.meetup-creates-possibilities-t-container {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangle-parent2 {
+  width: 528px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-2xs) var(--padding-61xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 15px 0;
+  min-width: 528px;
+  max-width: 100%;
+}
+.career-event-meetup-tech-group-parent {
+  width: 1196px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.desktop-6 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-52xl) var(--padding-10xl);
+  box-sizing: border-box;
+  gap: 86px 0;
+  background-image: url(/public/desktop--2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 1024px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .course-1662724358-1-icon {
+    align-self: stretch;
+    width: auto;
+  }
+  .course-1662724358-1-wrapper,
+  .rectangle-parent1 {
+    flex: 1;
+  }
+  .frame-group {
+    flex-wrap: wrap;
+  }
+  .desktop-6-inner {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .career-event-meetup-tech-group-icon,
+  .rectangle-parent2 {
+    flex: 1;
+  }
+  .career-event-meetup-tech-group-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .digital-marketing-training-container {
+    font-size: var(--font-size-19xl);
+  }
+  .get-hands-on-training-container {
+    font-size: var(--font-size-7xl);
+  }
+  .community-events-meetup-container {
+    font-size: var(--font-size-19xl);
+  }
+  .meetup-creates-possibilities-t-container {
+    font-size: var(--font-size-7xl);
+  }
+  .desktop-6 {
+    padding-top: var(--padding-27xl);
+    padding-bottom: var(--padding-27xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .course-1662724358-1-wrapper,
+  .rectangle-parent1,
+  .rectangle-parent2 {
+    min-width: 100%;
+  }
+  .desktop-6 {
+    gap: 86px 0;
+    padding-top: var(--padding-11xl);
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .digital-marketing-training-container {
+    font-size: var(--font-size-10xl);
+  }
+  .get-hands-on-training-container {
+    font-size: var(--font-size-lgi);
+  }
+  .community-events-meetup-container {
+    font-size: var(--font-size-10xl);
+  }
+  .meetup-creates-possibilities-t-container {
+    font-size: var(--font-size-lgi);
+  }
+  .desktop-6 {
+    gap: 86px 0;
+  }
+}

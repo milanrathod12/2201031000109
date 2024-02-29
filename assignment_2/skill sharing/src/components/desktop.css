@@ -1,0 +1,208 @@
+.frame-child10 {
+  height: 44px;
+  width: 139px;
+  position: relative;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-darkgray);
+  display: none;
+}
+.login1 {
+  width: 63px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 2;
+}
+.rectangle-parent9 {
+  border-radius: var(--br-41xl);
+  background-color: var(--color-darkgray);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-21xl) var(--padding-6xs)
+    var(--padding-16xl);
+  z-index: 1;
+}
+.text {
+  height: 29px;
+  width: 0;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -28px;
+  left: 58px;
+  color: var(--color-black);
+  display: inline-block;
+  cursor: pointer;
+}
+.rectangle-icon {
+  height: 44px;
+  width: 141px;
+  position: relative;
+  border-radius: var(--br-41xl);
+  display: none;
+}
+.sign-up {
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.vector-group {
+  border-radius: var(--br-41xl);
+  background-color: var(--color-darkgray);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-5xl) var(--padding-6xs)
+    var(--padding-8xl);
+  white-space: nowrap;
+}
+.desktop-13-inner,
+.frame-parent6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent6 {
+  position: relative;
+  gap: 0 17px;
+}
+.desktop-13-inner {
+  padding: 0 var(--padding-37xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.skill-sharing1 {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.skill-sharing-wrapper {
+  width: 983px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-14xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.and-lets-embark,
+.blank-line,
+.join-our-vibrant,
+.skill-development-together {
+  margin: 0;
+}
+.join-our-vibrant-container {
+  position: relative;
+  font-size: var(--font-size-21xl);
+}
+.frame-parent8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 76px 0;
+  max-width: 100%;
+}
+.frame-child11 {
+  height: 116px;
+  width: 517px;
+  position: relative;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-darkgray);
+  display: none;
+  max-width: 100%;
+}
+.try-it-for {
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.rectangle-parent10 {
+  border-radius: var(--br-41xl);
+  background-color: var(--color-darkgray);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xl) var(--padding-53xl) var(--padding-lgi)
+    var(--padding-31xl);
+  box-sizing: border-box;
+}
+.desktop-13,
+.frame-parent7,
+.frame-wrapper3,
+.rectangle-parent10 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper3 {
+  width: 625px;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: -2px;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+}
+.desktop-13,
+.frame-parent7 {
+  flex-direction: column;
+  align-items: center;
+  font-size: var(--font-size-109xl);
+  color: var(--color-black);
+}
+.desktop-13 {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  align-items: flex-end;
+  padding: var(--padding-16xl) var(--padding-127xl) var(--padding-178xl)
+    var(--padding-160xl);
+  box-sizing: border-box;
+  gap: 163px 0;
+  background-image: url(/public/desktop--2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .skill-sharing1 {
+    font-size: var(--font-size-32xl);
+  }
+  .join-our-vibrant-container {
+    font-size: var(--font-size-13xl);
+  }
+  .try-it-for {
+    font-size: var(--font-size-32xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-parent6 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login1,
+  .text {
+    font-size: var(--font-size-lgi);
+  }
+  .skill-sharing1 {
+    font-size: var(--font-size-13xl);
+  }
+  .join-our-vibrant-container {
+    font-size: var(--font-size-5xl);
+  }
+  .try-it-for {
+    font-size: var(--font-size-19xl);
+  }
+}
